@@ -1,18 +1,15 @@
 import './NavBarContainer.css'
+import logo from "../../assets/calculator-off.svg"
 
 export const NavBarContainer = () => {
   return (
     <>
         <div className="navbar-container">
             <div className="navbar">
-                <div className="navbar-logo">
-                    <img src="https://i.imgur.com/9Q1Z1Zm.png" alt="logo" />
-                </div>
-                <div className="navbar-links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
+                    <div className="navbar-logo">
+                        <img src={logo} alt="logo" />
+                        <h1>UniCalc</h1>
+                    </div>
             </div>
         </div>
     </>

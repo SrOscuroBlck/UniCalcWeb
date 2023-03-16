@@ -1,20 +1,24 @@
 /* Style the navbar */
 
 .navbar {
+  margin: 0;
+  padding: 0;
+  background: hsl(270, 1%, 71%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
-  background-color: #333;
+  height: 10vh;
+  background-color: #1a1a1a;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navbar links */
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d44b01;
 }
 
 
